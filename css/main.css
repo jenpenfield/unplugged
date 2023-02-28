@@ -87,6 +87,97 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/************************************* Global Styles *************************************/
+.content-wrapper {
+  max-width: 1000px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+
+/************************************* Base Header & Footer Styles *************************************/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+
+
+
+/************************************* Newsletter Signup Section Styles *************************************/
+
+#newsletter-signup .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/************************************* Features Section Styles *************************************/
+
+
+#features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/************************************* Reviews Section Styles *************************************/
+
+
+#reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flew-flow: row wrap;
+
+}
+
+/************************************* Footer Styles *************************************/
+
+.footer-content.content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
