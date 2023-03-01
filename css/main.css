@@ -88,13 +88,19 @@ textarea {
    ========================================================================== */
 
 /************************************* Global Styles *************************************/
+
+html {
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
 .content-wrapper {
-  max-width: 1000px;
   width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  margin: 0 50px;
+  border: 1px solid black;
 }
 
 
@@ -116,6 +122,14 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -131,15 +145,20 @@ header nav ul {
   margin-bottom: 15px;
 }
 
+#hero-area {
+  display: flex;
+  justify-content: center;
+}
 
 
 
 /************************************* Newsletter Signup Section Styles *************************************/
 
-#newsletter-signup .content-wrapper {
+#newsletter-signup {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
+  background: ;
 }
 
 
@@ -149,7 +168,20 @@ header nav ul {
 #features {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
+  background: ;
+}
+
+.features-items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#features article {
+  display: flex;
+  border: 1px solid black;
 }
 
 
