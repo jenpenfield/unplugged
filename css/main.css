@@ -99,7 +99,7 @@ img {
 
 .content-wrapper {
   width: 90%;
-  margin: 0 50px;
+  padding: 50px 0;
   border: 1px solid black;
 }
 
@@ -112,7 +112,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+
+}
+
+header {
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -130,24 +134,45 @@ header figure {
   flex-flow: row wrap;
 }
 
+.header-divider {
+  height: 1px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  text-transform: uppercase;
 }
 
 header nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
   margin-top: 20px;
   margin-bottom: 15px;
 }
 
+header nav ul li a {
+  text-decoration: none;
+}
+
 #hero-area {
   display: flex;
   justify-content: center;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer {
+  text-align: center;
 }
 
 
