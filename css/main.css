@@ -112,6 +112,11 @@ h2 {
   margin: 0;
 }
 
+figure {
+  margin: 0;
+  width: 100%;
+}
+
 img {
   width: 100%;
 }
@@ -128,17 +133,11 @@ p {
   line-height: 1.285em;
 }
 
-
-
-
-
 .content-wrapper {
   width: 90%;
   padding: 50px 0;
-  border: 1px solid black;
+  /* border: 1px solid red; */
 }
-
-
 
 /************************************* Base Header & Footer Styles *************************************/
 
@@ -169,7 +168,7 @@ header figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .header-divider {
@@ -205,14 +204,44 @@ header nav ul li {
   justify-content: center;
 }
 
+footer {
+  text-align: center;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
 }
 
-footer {
-  text-align: center;
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+
 
 /************************************* Hero Area Styles *************************************/
 
@@ -273,6 +302,8 @@ input[type=button] {
 
 #features {
   display: flex;
+  background-position: center;
+  background-size: cover;
   justify-content: center;
   flex-flow: row wrap;
   background: url(../img/unplugged-features.jpg);
@@ -283,21 +314,15 @@ input[type=button] {
 }
 
 #features article {
-  display: flex;
   margin: 30px 0;
   width: 60%;
-  border: 1px solid black;
+  /* border: 1px solid red; */
 }
 
-.features-items {
+#features .features-items {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 100%;
-}
-
-.fontawesome-icon {
-
 }
 
 #features i {
@@ -307,18 +332,27 @@ input[type=button] {
 
 #features p {
   margin: 0;
+  text-align: center;
 }
-
 
 /************************************* Reviews Section Styles *************************************/
 
-
 #reviews {
+  background-color: #2A423A;
   display: flex;
   justify-content: center;
   align-items: center;
-  flew-flow: row wrap;
+  flex-flow: row wrap;
+}
 
+#reviews h2 {
+  line-height: 1em;
+  margin-bottom: 40px;
+}
+
+#reviews h3 {
+  margin: 20px 0;
+  width: 55%;
 }
 
 /************************************* Footer Styles *************************************/
