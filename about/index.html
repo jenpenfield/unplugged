@@ -16,8 +16,8 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
@@ -35,14 +35,17 @@
 
 <body>
   
-  <header class="header-content">
+  <header>
     <div class="content-wrapper">
-      <a href="#"><img src="../img/unplugged-logo.png" alt="Unplugged Logo"></a>
+      <figure>
+        <a href="#"><img src="../img/unplugged-logo.png" alt="Unplugged Logo"></a>
+      </figure>
       <div class="header-divider"></div>
+
       <nav>
         <ul>
-          <li><a href="../index.html">HOME</a></li>
-          <li><a href="../about/index.html">FAQ</a></li>
+          <li><a href="faq/index.html">FAQ</a></li>
+          <li><a href="about/index.html">ABOUT</a></li>
         </ul>
       </nav>
     </div>
@@ -53,16 +56,16 @@
       <div class="content-wrapper">
         <div class="mission-content">
           <h2>Our Mission &#8212; we want to make you the team you've always wanted to be.</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget rutrum nulla, vehicula auctor enim. Sed laoreet lacinia purus, eu malesuada lacus dignissim at. Vestibulum tincidunt semper porttitor. Quisque tempor, diam sit.<br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget rutrum nulla, vehicula auctor enim. Sed laoreet lacinia purus, eu malesuada lacus dignissim at. Vestibulum tincidunt semper porttitor. Quisque tempor, diam sit.<br><br>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a erat ut dolor ultrices elementum. Sed ipsum orci, convallis ac lacinia nec, lacinia non lectus. Morbi venenatis, eros at convallis finibus, orci.
           </p>
         </div>
       </div>
     </section>
 
-    <section id="google-map">
+    <section id="map">
       <figure>
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9185.862955968598!2d-88.47333282148281!3d42.558763350234635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88058bad18fa3bff%3A0x563f532563852cc1!2sLake%20Geneva%20Country%20Club!5e0!3m2!1sen!2sus!4v1678324173322!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </figure>
     </section>
 
@@ -102,15 +105,21 @@
       <div class="social">
         <h4>Social</h4>
         <div class="social-icons">
-          <img src="img/" alt="facebook icon">
-          <img src="img" alt="twitter icon">
-          <img src="img/" alt="instagram icon">
+          <p>
+            <a href="https://facebook.com/Skillcrush/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          </p>
+          <p>
+            <a href="https://twitter.com/Skillcrush/" target="_blank"><i class="fab fa-twitter"></i></a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/skillcrush/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </p>
         </div>
       </div>
       <div class="copyright">
         <p>Copyright 2023 | Unplugged</p>
       </div>
-    </div> <!--footer content-wrapper ends-->
+    </div> 
   </footer>
 
 </body>
