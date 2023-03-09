@@ -374,6 +374,34 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+/*********************************************************************** About Page **********************************************************************/
+
+#faq {
+  background-color: #527158;
+  display: flex;
+  justify-content: center;
+
+}
+
+#faq h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+#faq-content {
+  display: flex;
+  flex-flow: row wrap;
+
+
+}
+
+#faq-content h4 {
+  line-height: 1.333;
+}
+
+.faq-items {
+  margin-bottom: 50px;
+}
 
 /*********************************************************************** Tablet Styles **********************************************************************/
 
