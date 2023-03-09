@@ -360,21 +360,6 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-#map {
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 125%;
-  position: relative;
-  width: 100%;
-}
-
-#map iframe {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
 
 
 
