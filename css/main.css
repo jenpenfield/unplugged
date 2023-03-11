@@ -105,6 +105,13 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-size: 2.25em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -259,14 +266,8 @@ footer .copyright {
   width: 100%;
 }
 
-#hero-area h1 {
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-size: 2.25em;
-  font-weight: 500;
-  line-height: 1.2;
-}
 
-/************************************* Aside (#newsletter-signup) Styles *************************************/
+/********************** Aside (#newsletter-signup) Styles *************************/
 
 #newsletter-signup {
   background-color: #527158;
@@ -301,7 +302,7 @@ input[type=button] {
   width: 100%;
 }
 
-/************************************* Features (#features) Section Styles *************************************/
+/********************* Features (#features) Section Styles **********************/
 
 #features {
   background: url(../img/unplugged-features.jpg) center no-repeat #333;
@@ -318,7 +319,6 @@ input[type=button] {
 #features article {
   margin: 30px 0;
   width: 60%;
-  /* border: 1px solid red; */
 }
 
 #features .features-items {
@@ -337,7 +337,7 @@ input[type=button] {
   text-align: center;
 }
 
-/************************************* Reviews Section Styles *************************************/
+/****************** Reviews Section Styles ********************/
 
 #reviews {
   background-color: #2A423A;
@@ -357,7 +357,7 @@ input[type=button] {
   width: 55%;
 }
 
-/*********************************************************************** About Page **********************************************************************/
+/***************************** About Page *************************/
 
 #mission {
   background-color: #527158;
@@ -374,7 +374,7 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-/*********************************************************************** About Page **********************************************************************/
+/************************* About Page ************************************/
 
 #faq {
   background-color: #527158;
@@ -391,8 +391,6 @@ input[type=button] {
 #faq-content {
   display: flex;
   flex-flow: row wrap;
-
-
 }
 
 #faq-content h4 {
@@ -406,10 +404,167 @@ input[type=button] {
 /*********************************************************************** Tablet Styles **********************************************************************/
 
 @media only screen and (min-width: 768px) {
+  
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+  
+  h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.33;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
+  header {
+    justify-content: space-around;
+    padding: 33px 0;
+  }
+
+  header .content-wrapper {
+    justify-content: space-between;
+    /* width: 100%; */
+  }
+
+  header figure {
+    width: 30%;
+  }
+
+  header nav {
+    width: 23%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  #hero-area {
+    min-height: 650px;
+  }
+
+  #hero-area .content-wrapper {
+    padding-top: 20px;
+  }
+
+  #newsletter-signup .content-wrapper {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 0;
+    width: 100%;
+  }
+
+  #newsletter-signup .content-wrapper #form-description,
+  #newsletter-signup .content-wrapper #form {
+    width: 40%;
+    margin: 0;
+  }
+
+  #features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    flex-flow: column wrap;
+  }
+
+  #features .features-item-description {
+    width: 60%;
+  }
+
+  #reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #reviews h2 {
+    width: 80%;
+  }
+
+  #reviews h3 {
+    margin: 0;
+    width: 75%;
+  }
+
+  #reviews figure, 
+  #reviews article div {
+    width: 49%;
+  }
+
+  footer .content-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin: 100px 0;
+  }
+
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  footer .contact {
+    margin: 0;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  /* footer .contact,
+  footer .social {
+    width: 50%;
+    border: 1px solid red;
+  } */
+
+  footer p {
+      line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+  
+  footer .copyright {
+    width: 100%;
+  }
+
+  /****************** Tablet About Page *****************/
+
+  /****************** Tablet FAQ Page *****************/
+  #faq h4 {
+    font-size: 0.5833;
+    line-height: 0.65625;
+  }
+
+  #faq p {
+    line-height: 0.875;
+  }
 
 
 
 }
+
+
 
 
 
@@ -418,6 +573,13 @@ input[type=button] {
 @media only screen and (min-width: 1200px) {
 
 }
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
